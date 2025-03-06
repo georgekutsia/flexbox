@@ -94,7 +94,7 @@ main {
 }
 
 .event-div {
-  flex: 1 0 500px;
+  flex: 1 0 700px;
 }
 .event-div-h3 {
   display: flex;
@@ -245,9 +245,12 @@ main {
 .font-weight {
   font-weight: 500;
 }
+.event-div-tab{
+  flex: 1 1 600px;
+}
 .recursos-div-large {
   height: 130px;
-  flex: 1 0 100px;
+  width: 100%;
   border-radius: 10px;
   display: flex;
   justify-content: center;
