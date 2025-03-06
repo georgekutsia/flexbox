@@ -192,7 +192,6 @@ main {
   padding: 10px;
   position: relative;
   background-color: white;
-
 }
 .link-meta {
   position: absolute;
@@ -214,7 +213,7 @@ main {
   display: flex;
   gap: 20px;
   color: black;
-
+  flex-wrap: wrap;
   h5 {
     width: 200px;
   }
@@ -226,9 +225,8 @@ main {
   align-items: center;
   justify-content: space-between;
   height: 90px;
-  flex: 1 0 200px;
+  width: 330px;
   border-radius: 10px;
-
   i {
     font-size: 2rem;
   }
@@ -249,7 +247,7 @@ main {
 }
 .recursos-div-large {
   height: 130px;
-  flex: 1 0 200px;
+  flex: 1 0 100px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -259,7 +257,7 @@ main {
     height: 70px;
     width: 90%;
     display: flex;
-  box-shadow: 2px 4px 20px rgb(180, 174, 174);
+    box-shadow: 2px 4px 20px rgb(180, 174, 174);
     border-radius: 20px;
     background-color: white;
     flex-direction: column;
